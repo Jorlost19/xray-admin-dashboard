@@ -36,7 +36,7 @@ export const Dashboard = () => {
       bg="#3D2F1F"
       p={6}
     >
-      <Box maxW="1200px" mx="auto">
+      <Box maxW="1400px" mx="auto">
         <VStack gap={8} align="stretch">
           <DashboardHeader />
 
@@ -47,7 +47,7 @@ export const Dashboard = () => {
           />
 
           <SimpleGrid
-            columns={{ base: 1, md: 2 }}
+            columns={{ base: 1, sm: 2, md: 3, lg: 4 }}
             gap={6}
             mt={4}
           >
